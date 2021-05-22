@@ -87,7 +87,7 @@ submit.addEventListener('click', () => {
             loadQuestion();
         }
         else{
-            showScoreboard.innerHTML = `<h3>Your Score is: <span class="got-score">${score}</span> out Of <span class="total-score">${quizJS.length}</span>  <button class="reload-btn" onclick="location.reload()">Play again</button>`;
+            showScoreboard.innerHTML = `<h3>Your Score is: <span class="got-score">${score} </span> 👍 out Of <span class="total-score">${quizJS.length}</span><br><span style="font-size:12px;"> I ❤️ Javascript </span>  <button class="reload-btn" onclick="location.reload()">Play again</button></h3>`;
             showScoreboard.classList.remove("ScoreArea");
         }
 });
