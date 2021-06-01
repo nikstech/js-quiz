@@ -19,6 +19,7 @@ body{
         background-color: #fff;
         border-radius: 1rem;
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
+        position: relative;
 
         h2{
             font-size: 2rem;
@@ -81,6 +82,13 @@ body{
         .got-score,
         .total-score{
             font-size: 1.5rem;
+        }
+        p#dev-info{
+            position: absolute;
+            right: 15px;
+            bottom: 5px;
+            font-size: 12px;
+            opacity: 0.5;
         }
     }
 }
