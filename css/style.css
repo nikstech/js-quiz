@@ -24,7 +24,8 @@ body {
   background-color: #fff;
   border-radius: 1rem;
   -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
-          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
+  position: relative;
 }
 
 .main_div .inner_div h2 {
@@ -94,5 +95,12 @@ body {
 .main_div .inner_div .got-score,
 .main_div .inner_div .total-score {
   font-size: 1.5rem;
+}
+p#dev-info{
+  position: absolute;
+  bottom: 6px;
+  right: 15px;
+  opacity: 0.5;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
