@@ -32,6 +32,54 @@ const quizJS = [
         c: "Division by zero",
         d: "Missing of Bracket",
         ans: "ans4"
+    },
+    {
+        question: "05: JavaScript is designed for following purpose -",
+        a: "to style HTML pages",
+        b: "to execute Queries related to databases on a server",
+        c: "to add interactivity to html pages",
+        d: "All of the above",
+        ans: "ans4"
+    },
+    {
+        question: "06: Among the following, which one is a ternary operator in JavaScript?",
+        a: "#",
+        b: "::",
+        c: "?:",
+        d: "#:",
+        ans: "ans3"
+    },
+    {
+        question: "07: What are the three important manipulations done in a for loop on a loop variable in javascript?",
+        a: "the initialization, the Incrementation, and update",
+        b: "the initialization, the test, and the update",
+        c: "the initialization, the test, and Incrementation",
+        d: "All of the above",
+        ans: "ans2"
+    },
+    {
+        question: "08: What does javascript use instead of == and !=?",
+        a: "It uses bitwise checking",
+        b: "It uses === and !== instead",
+        c: "It uses equals() and notequals() instead",
+        d: "It uses equalto()",
+        ans: "ans2"
+    },
+    {
+        question: "09: Which of them is not the looping structures in JavaScript?", 
+        a: "for",
+        b: "while",
+        c: "forwhich",
+        d: "dowhile",
+        ans: "ans3"
+    },
+    {
+        question: "10:What is defination of an undefined value in JavaScript?",
+        a: "Variable used in the code doesn't exist",
+        b: "Variable is not assigned to any value",
+        c: "Property doesn't exist",
+        d: "All of the above",
+        ans: "ans3"
     }
 ]
 

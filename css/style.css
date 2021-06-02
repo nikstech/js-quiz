@@ -28,10 +28,22 @@ body {
   position: relative;
 }
 
+.main_div .inner_div .jock-msg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 7px 0 3px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #337ab7;
+  color: #fff;
+}
+
 .main_div .inner_div h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  margin: 1rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
 }
 
 .main_div .inner_div li {
@@ -43,6 +55,7 @@ body {
 .main_div .inner_div li input,
 .main_div .inner_div li label {
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .main_div .inner_div #submit,
@@ -65,11 +78,12 @@ body {
 .main_div .inner_div #showScore {
   background-color: #f2f2f2;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 2rem 3rem;
-  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
-          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.089);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.089);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.089);
   text-align: center;
+  border-top: 1px solid #337ab7;
 }
 
 .main_div .inner_div .ScoreArea {
@@ -101,7 +115,7 @@ body {
   position: absolute;
   right: 15px;
   bottom: 5px;
-  font-size: 18px;
-  opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */
